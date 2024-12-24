@@ -3,64 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tienda oficial de productos de Cobra Kai."
+    />
+    <link
+      rel="icon"
+      href="https://preview.redd.it/7zrmjcjr7mfd1.png?width=640&crop=smart&auto=webp&s=c4d5b93718790d395b8b9e31e5816f8a5b59528d"
+      type="image/png"
+    />
     <title>Cobra Kai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Cobra Kai</h1>
+    <div class="cookie-banner text-white bg-dark text-center p-3">
+      <p>
+        This website uses cookies to ensure you get the best experience on our
+        website.
+        <a href="#" class="text-warning">Privacy Policy</a>
+      </p>
+      <button class="btn btn-warning btn-sm mx-2">Preferences</button>
+      <button class="btn btn-danger btn-sm">Accept</button>
+    </div>
+
+    <header class="bg-light text-center py-3">
+      <img
+        src="https://preview.redd.it/7zrmjcjr7mfd1.png?width=640&crop=smart&auto=webp&s=c4d5b93718790d395b8b9e31e5816f8a5b59528d"
+        alt="Cobra Kai Logo"
+        class="logo img-fluid mb-3"
+      />
+      <h1 class="display-4 text-black">Cobra Kai</h1>
+      <p class="lead text-black">Strike First, Strike Hard, No Mercy.</p>
+      <div class="header-bar d-flex justify-content-around mt-3">
+        <p class="text-black">Free shipping on orders over $100</p>
+        <a href="#" class="text-danger">Sign In</a>
+        <a href="#" class="text-danger">Log In</a>
+        <a href="#" class="text-danger">Track My Order</a>
+      </div>
     </header>
-    <section>
-      <h2>Información general</h2>
-      <ul>
-        <li><strong>Año de estreno:</strong> 2018</li>
-        <li><strong>País de origen:</strong> Estados Unidos</li>
-        <li><strong>Género(s):</strong> Drama, Comedia, Artes marciales</li>
-        <li>
-          <strong>Creadores:</strong> Josh Heald, Jon Hurwitz, Hayden
-          Schlossberg
+    
+    <section class="container my-5">
+      <h2 class="text-center text-danger">Información General</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><strong>Año de estreno:</strong> 2018</li>
+        <li class="list-group-item"><strong>País de origen:</strong> Estados Unidos</li>
+        <li class="list-group-item"><strong>Género(s):</strong> Drama, Comedia, Artes marciales</li>
+        <li class="list-group-item">
+          <strong>Creadores:</strong> Josh Heald, Jon Hurwitz, Hayden Schlossberg
         </li>
       </ul>
-      <p>
-        <strong>Sinopsis:</strong> Décadas después de su épica confrontación en
-        el torneo de karate de 1984, Johnny Lawrence, quien ahora atraviesa un
-        momento difícil en su vida, decide reabrir el legendario dojo Cobra Kai
-        con la esperanza de recuperar el propósito que alguna vez tuvo. Esto
-        reaviva su rivalidad con Daniel LaRusso, quien ahora es un exitoso
-        empresario pero lucha por encontrar un equilibrio en su vida sin la guía
-        del Sr. Miyagi. Mientras los dos hombres intentan superar las cicatrices
-        de su pasado, nuevas generaciones de estudiantes se involucran en una
-        intensa batalla entre el bien y el mal, donde los límites entre ambos se
-        desdibujan. La serie explora temas como la redención, el impacto de las
-        decisiones del pasado y la búsqueda de identidad en un mundo cambiante,
-        mientras mezcla acción, drama y humor en un formato atractivo y
-        nostálgico.
-      </p>
     </section>
 
-    <section>
-      <h2>Número de temporadas y episodios</h2>
-      <ul>
-        <li>Temporada 1: 10 episodios</li>
-        <li>Temporada 2: 10 episodios</li>
-        <li>Temporada 3: 10 episodios</li>
-        <li>Temporada 4: 10 episodios</li>
-        <li>Temporada 5: 10 episodios</li>
+    <section class="container my-5">
+      <h2 class="text-center text-danger">Número de Temporadas y Episodios</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Temporada 1: 10 episodios</li>
+        <li class="list-group-item">Temporada 2: 10 episodios</li>
+        <li class="list-group-item">Temporada 3: 10 episodios</li>
+        <li class="list-group-item">Temporada 4: 10 episodios</li>
+        <li class="list-group-item">Temporada 5: 10 episodios</li>
       </ul>
     </section>
 
-    <section>
-      <h2>Póster promocional</h2>
-      <img
-        src="https://http2.mlstatic.com/D_NQ_NP_990311-MLM51375467222_092022-O.webp"
-        alt="Póster de Cobra Kai"
-        width="300"
-      />
+    <section class="container text-center my-5">
+      <h2 class="text-danger">Póster Promocional</h2>
+      <img src="https://http2.mlstatic.com/D_NQ_NP_990311-MLM51375467222_092022-O.webp" class="img-fluid rounded shadow-lg" alt="Póster de Cobra Kai" />
     </section>
 
-    <section>
-      <h2>Personajes principales</h2>
-      <table border="1" cellpadding="5">
-        <thead>
+    <section class="container my-5">
+      <h2 class="text-center text-danger">Personajes Principales</h2>
+      <table class="table table-dark table-striped table-bordered text-center">
+        <thead class="thead-light">
           <tr>
             <th>Nombre</th>
             <th>Foto</th>
@@ -71,81 +94,138 @@
           <tr>
             <td>Johnny Lawrence</td>
             <td>
-              <img
-                src="https://static.tvtropes.org/pmwiki/pub/images/ck_s4_johnny_lawrence.png"
-                alt="Johnny Lawrence"
-                width="100"
-              />
+              <img src="https://static.tvtropes.org/pmwiki/pub/images/ck_s4_johnny_lawrence.png" class="img-thumbnail" alt="Johnny Lawrence" />
             </td>
-            <td>
-              Fundador del dojo Cobra Kai. Busca redimir su pasado y ayudar a
-              jóvenes en dificultades.
-            </td>
+            <td>Fundador del dojo Cobra Kai. Busca redimir su pasado y ayudar a jóvenes en dificultades.</td>
           </tr>
           <tr>
             <td>Daniel LaRusso</td>
             <td>
-              <img
-                src="https://depor.com/resizer/MlnnAwbGkI97CtrNqS_6j66-qT0=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/OSAXH35OXJAINDVKNMOMJ67G5Q.jpg"
-                alt="Daniel LaRusso"
-                width="100"
-              />
+              <img src="https://depor.com/resizer/MlnnAwbGkI97CtrNqS_6j66-qT0=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/OSAXH35OXJAINDVKNMOMJ67G5Q.jpg" class="img-thumbnail" alt="Daniel LaRusso" />
             </td>
-            <td>
-              Excampeón de karate y propietario del dojo Miyagi-Do, busca
-              promover la filosofía de su maestro.
-            </td>
+            <td>Excampeón de karate y propietario del dojo Miyagi-Do, busca promover la filosofía de su maestro.</td>
           </tr>
           <tr>
             <td>Robby Keene</td>
             <td>
-              <img
-                src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/07/tanner-buchanan-as-robby-in-cobra-kai-season-6.jpg"
-                alt="Robby Keene"
-                width="100"
-              />
+              <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/07/tanner-buchanan-as-robby-in-cobra-kai-season-6.jpg" class="img-thumbnail" alt="Robby Keene" />
             </td>
-            <td>
-              Hijo de Johnny Lawrence, atrapado entre la rivalidad de los dos
-              dojos.
-            </td>
+            <td>Hijo de Johnny Lawrence, atrapado entre la rivalidad de los dos dojos.</td>
           </tr>
         </tbody>
       </table>
     </section>
 
-    <section>
-      <h2>Enlaces oficiales</h2>
-      <ul>
-        <li>
-          <a href="https://www.netflix.com/title/81002370" target="_blank"
-            >Sitio oficial en Netflix</a
-          >
-        </li>
-        <li>
-          <a href="https://twitter.com/CobraKaiSeries" target="_blank"
-            >Twitter oficial</a
-          >
-        </li>
-        <li>
-          <a href="https://www.instagram.com/cobrakaiseries/" target="_blank"
-            >Instagram oficial</a
-          >
-        </li>
-      </ul>
-    </section>
+    <<section class="container my-5 text-center">
+  <h2 class="text-danger">Conéctate con nosotros</h2>
+  <div class="social-icons">
+    <a href="https://twitter.com/CobraKaiSeries" class="mx-2" target="_blank">
+      <img
+        src="https://images.vexels.com/media/users/3/137419/isolated/svg/b1a3fab214230557053ed1c4bf17b46c.svg"
+        style="width: 50px; height: 50px;"
+        alt="Twitter"
+      />
+    </a>
+    <a href="https://www.instagram.com/cobrakaiseries/" class="mx-2" target="_blank">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png"
+        style="width: 50px; height: 50px;"
+        alt="Instagram"
+      />
+    </a>
+    <a href="https://www.facebook.com/CobraKaiSeries/" class="mx-2" target="_blank">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/480px-Facebook_Logo_%282019%29.png"
+        style="width: 50px; height: 50px;"
+        alt="Facebook"
+      />
+    </a>
+  </div>
+</section>
 
-    <section>
-      <h2>Trailer</h2>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/xCwwxNbtK6Y"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section>
+    </a>
+  </div>
+  <form class="newsletter-form mt-4">
+    <p class="text-black">Sign up for our newsletter!</p>
+    <div class="form-inline justify-content-center">
+      <input
+        type="email"
+        class="form-control mr-2"
+        placeholder="Enter your email"
+      />
+      <button class="btn btn-danger" type="submit">Sign Up</button>
+    </div>
+  </form>
+</section>
+
+  </body>
+</html>
+
+    <nav class="navbar navbattps://img.icr-expand-lg navbar-light bg-warning">
+      <a class="navbar-brand text-black" href="#">Cobra Kai</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">New Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Apparel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Figures & Statues</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Home Decor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Shop by Dojo</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-danger my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    
+
+    <footer class="bg-light text-black text-center py-4">
+      <p>
+        Cobra Kai Store is owned and operated by Araca Merchandise L.P. under
+        license from Sony Pictures Television Inc. Araca Merchandise L.P.,
+        United States is responsible for the site's content and all aspects of
+        your purchase.
+      </p>
+      <small>
+        The Araca Group © 2024 All Rights Reserved. ™ & © 2024 Sony Pictures
+        Television Inc. All Rights Reserved.
+      </small>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
